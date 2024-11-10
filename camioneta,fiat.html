@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Descripción de Autos</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Galería de Autos</h1>
+    </header>
+
+    <main>
+        <section class="car-list">
+            <h2>Modelos Disponibles</h2>
+            <ul>
+                <li onclick="mostrarDescripcion('fiat')">Fiat camioneta</li>
+                <li onclick="mostrarDescripcion('camioneta1 1 ')">camioneta modelo ruso</li>
+                <li onclick="mostrarDescripcion('camioneta 2')">camioneta de viajes</li>
+            </ul>
+        </section>
+
+        <section class="car-description">
+            <h2>Descripción del Auto</h2>
+            <div id="descripcion"></div>
+        </section>
+    </main>
+</body>
+</html>
